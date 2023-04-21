@@ -1,24 +1,11 @@
 # MySql
-##  Cconcepto generaall de bases de  datos 
-Seggun la  RAE BDD  es el “conjunto de datos organizado de tal modo que permita obtener con rapidez diversos tipos de información”
+##  Pasos para crear una bases de datos a travès de código sql
+ 1. Dar clic en el en el botón sql para abrir el editor de código y crear la base de datos 
+ 
+ 
+```Sql:
+CREATE DATABASE supermecadodb;
 
-###  Modelo  entiddad  reelación  
-  - **Modelo Conceptual**, denominado *Modelo de Entidad-Relación*, es una representación gráfica o mapeo de los datos y la relación existente entre ellos. Igualmente es una representación abstracta de los datos de una BD independiente de su estructura final.
-   - *Ventajas del modelo conceptual*:
-      - Se obtiene una representación de los datos independientemente del entorno físico, lo que permite exportalos de manera fácilg a diferentes SGBD independientemente de su versión.
-      - Mejora el mantenimiento de la información
-   - Elementos que conforman el modelo ER:
-      - Entidad 
-      - Atributos 
-      - Relación 
-        1. Grado
-        2. Participación
-        3. Cardinalidad 
-        4. Atributos pripios de una relación 
-    
-      
- 2. Análisis desde el punto de vista lógico de los datos 
- 3. Analisi físico de almacenamiento 
- 
- 
+```
+ Luego dar clic en el icono en forma de rayo :zap: y verifica en la parte inferior que esta ha sido creada con el check :ballot_box_with_check: y en el SCHEMAS actualizar.
 
