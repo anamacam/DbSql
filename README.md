@@ -1,10 +1,10 @@
 # Sentencias Sql
 
-Las **sentencias **SQL** son un términos que se utiliza en este lenguaje de dominio para referise a los comandos SQL. Existen dos tipos de sentencias en SQL que permiten la definición y manipulación de datos. 
+Las **sentencias SQL** son un términos que se utiliza en este lenguaje de dominio para referise a los comandos SQL. Existen dos tipos de sentencias en SQL que permiten la definición y manipulación de datos. 
 
-Las sentencias **DML** se utilizan para la minipulación de datos permitiendo al usuario reallizar consultas, modificaciones, inserciones y eliminación de datos. Dentro dela sentencias **DML** es posible añadir y eliminar filas  o modificar datos existentes a traves de as sentencias  ***Select, Insert, Delete y Update***.
+Las sentencias **DML** se utilizan para la minipulación de datos permitiendo al usuario realizar consultas, modificaciones, inserciones y eliminación de datos. Dentro de la sentencias **DML** es posible añadir y eliminar filas  o modificar datos existentes a traves de as sentencias  ***Select, Insert, Delete y Update***.
 
-Las sentencias DDL se ocupan de la creaión de objetos  y las sentecia maás utilizadas ***Create Table, Drop Table, Alter Table*** para  aañadir, modificar o eliminar una tabla.
+Las sentencias **DDL** se ocupan de la creaión de objetos  y las sentecia maás utilizadas ***Create Table, Drop Table, Alter Table*** para  aañadir, modificar o eliminar una tabla.
 
 En SQL exinten otras sentencia para el control de acceso y transacciones relacionadas con los privilegios de usuario como son las denominadas **DCL**.
 
