@@ -2,36 +2,55 @@
 
 Las **sentencias SQL** son un términos que se utiliza en este lenguaje de dominio para referise a los comandos SQL. Existen dos tipos de sentencias en SQL que permiten la definición y manipulación de datos. 
 
-Las sentencias **DML** se utilizan para la minipulación de datos permitiendo al usuario realizar consultas, modificaciones, inserciones y eliminación de datos. Dentro de la sentencias **DML** es posible añadir y eliminar filas  o modificar datos existentes a traves de las sentencias  ***Select, Insert, Delete y Update***.
+### DML Manipulaión de datos 
 
-|  Sentencias DML | Descripción           |
-|---------|-------------------------------|
-|  SELEC  | Recupera los datos            |
-|  INSERT | Añada nuevas filas            |
-|  DELETE | Elimina filas                 |
-|  UPDATE | Modifica los datos existentes |
-
-Las sentencias **DDL** se ocupan de la creaión de objetos  y las sentecia maás utilizadas ***Create Table, Drop Table, Alter Table*** para  aañadir, modificar o eliminar una tabla.
-
-|  Sentencias DDL | Descripción                                 |
-|-----------------|-----------------------------------------------------|
-|  CREATE TABLE   | Añade una nueva tabla                         |
-|  DROP TABLE     | Elimina tabla                                 |
-|  ALTER TABLE    | Modifica la estructura de una tabla existente |
-|  CREATE VIEW    | Añade una nueva vista a la base de datos      |
-|  DROP VIEW      |Construye un índice para una columna           |
-|  CREATE INDEX   | Suprime el índice para una columna            |
-|  DROP INDEX     | Define un alias para un nombre de tabla       |
-|  DROP SYNOYM    | Suprime un alias para un nombre de tabl       |
+|  **Sentencias DML** | **Descripción**               |
+|---------------------|-------------------------------|
+|  SELEC              | Recupera los datos            |
+|  INSERT             | Añada nuevas filas            |
+|  DELETE             | Elimina filas                 |
+|  UPDATE             | Modifica los datos existentes |
 
 
+### DDL definición de datos
 
+| **Sentencias DDL**  | **Descripción**                               |
+|---------------------|-----------------------------------------------|               
+|  CREATE TABLE       | Añade una nueva tabla                         |
+|  DROP TABLE         | Elimina tabla                                 |
+|  ALTER TABLE        | Modifica la estructura de una tabla existente |
+|  CREATE VIEW        | Añade una nueva vista a la base de datos      |
+|  DROP VIEW          | Construye un índice para una columna          |
+|  CREATE INDEX       | Suprime el índice para una columna            |
+|  DROP INDEX         | Define un alias para un nombre de tabla       |
+|  DROP SYNOYM        | Suprime un alias para un nombre de tabl       |
 
 
 
-En SQL exinten otras sentencia para el control de acceso y transacciones relacionadas con los privilegios de usuario como son las denominadas **DCL**.
 
-Otra categoría de sentencias son las **PLSQL** de tipo programático que incluyen los comandos ***Declare, Open, Fetch y Close*** .
+### DCL control de acceso y transaciones
+
+|  **Sentencias DCL** | **Descripción**                          |
+|---------------------|------------------------------------------|
+|  **Acceso**         |                                          |
+| GRANT               | Concede privilegios de acceso a usuarios |                              
+| REVOKE              | Suprime privilegios de acceso a usuarios |
+| **Tansacciones**    |                                          |
+| COMMIT              | Finaliza la transacción actual           |
+| ROLLBACK            | Aborata la transacción actual            |
+
+
+### PLSQL Programático
+
+|  **Sentencias PLSQL** | **Descripción**                                      |
+|-----------------------|-------------------------------------------------------|
+|  **SQL Programático** |                                                       |
+| DECLARE               |Define un cursor para una consulta                     |                              
+| OPEN                  | Abre un cursor para recuperar resultados de consultas |
+| FETCH                 | Recupera una fila de resultados de consulta           |
+| RCLOSE                | ACierra un cursor                                     |
+
+
 
 
  ```Sql:
