@@ -1,10 +1,8 @@
-# MySql
-##  Pasos para crear una bases de datos a través de código sql
- 1. Dar clic en el en el botón sql para abrir el editor de código y crear la base de datos. Luego dar clic en el icono en forma de execute :zap: y verifica en la parte inferior que esta ha sido creada con el check :ballot_box_with_check: y en el SCHEMAS actualizar.
- 
- ---La sentencia **CREATE DATABASE** se utiliza para crear una nueva BD.
- 
- 
+# Sentencias Sql
+
+Las **sentencias SQL** son un términos que se utiliza en este lenguaje de dominio para referise a los comandos SQL. Existen dos tipos de sentencias en SQL que permiten la definición y la manipulación de datos. 
+
+
  ```Sql:
  
  // listar BD creadas, crear BD y usar BD
